@@ -1,5 +1,5 @@
 # VidLearn API
-- Base URL = `http://vidlearn.rf.gd/api/v1/`
+- Base URL = `https://vidlearn-api.herokuapp.com/`
 - Header : 
   - Content-Type: application/json
   - Accept: application/json
@@ -21,7 +21,7 @@ Response :
             "id": 19,
             "name": "ACCOUNTING",
             "total_playlist": 2,
-            "url": "http://vidlearn.rf.gd/api/v1/playlist?category=accounting&id_category=19"
+            "url": "https://vidlearn-api.herokuapp.com/playlist?category=accounting&id_category=19"
         }
     ],
     "meta": {
@@ -30,7 +30,7 @@ Response :
         "per_page": 5,
         "total_pages": 1,
         "links": {
-            "base_url": "http://vidlearn.rf.gd/api/v1/categories",
+            "base_url": "https://vidlearn-api.herokuapp.com/categories",
             "previous": false,
             "next": false
         }
@@ -55,7 +55,7 @@ Response :
             "id": 71,
             "name": "ACCOUNTING",
             "total_playlist": 1,
-            "url": "http://vidlearn.rf.gd/api/v1/playlist?tag=accounting&id_tag=71"
+            "url": "https://vidlearn-api.herokuapp.com/playlist?tag=accounting&id_tag=71"
         }
     ],
     "meta": {
@@ -64,7 +64,7 @@ Response :
         "per_page": 5,
         "total_pages": 1,
         "links": {
-            "base_url": "http://vidlearn.rf.gd/api/v1/tags",
+            "base_url": "https://vidlearn-api.herokuapp.com/tags",
             "previous": false,
             "next": false
         }
@@ -93,7 +93,7 @@ Response :
             "description": "Dokumentasi Belajar Cisco CCNA Network Engineer.....",
             "created_at": "2021-03-01 20:08:15",
             "created_at_date_format": "Monday, 01 March 2021 08:08:15 PM",
-            "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36"
+            "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36"
         }
     ],
     "meta": {
@@ -102,7 +102,7 @@ Response :
         "per_page": 5,
         "total_pages": 1,
         "links": {
-            "base_url": "http://vidlearn.rf.gd/api/v1/playlist",
+            "base_url": "https://vidlearn-api.herokuapp.com/playlist",
             "previous": false,
             "next": false
         }
@@ -131,53 +131,53 @@ Response :
         "videos": [
             {
                 "name": "belajar CISCO CCNA Network Engineer bagian #1",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-1&id_video=78"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-1&id_video=78"
             },
             {
                 "name": "belajar CISCO CCNA Network Engineer bagian #2",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-2&id_video=79"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-2&id_video=79"
             },
             {
                 "name": "belajar CISCO CCNA Network Engineer bagian #3",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-3&id_video=80"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-3&id_video=80"
             },
             {
                 "name": "belajar CISCO CCNA Network Engineer bagian #4",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-4&id_video=81"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-4&id_video=81"
             },
             {
                 "name": "belajar CISCO CCNA Network Engineer bagian #5",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-5&id_video=82"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-5&id_video=82"
             },
             {
                 "name": "belajar CISCO CCNA Network Engineer bagian #6",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-6&id_video=83"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-6&id_video=83"
             },
             {
                 "name": "belajar CISCO CCNA Network Engineer bagian #7",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-7&id_video=84"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-7&id_video=84"
             },
             {
                 "name": "belajar CISCO CCNA Network Engineer bagian #8",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-8&id_video=85"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36&video=belajar-cisco-ccna-network-engineer-bagian-8&id_video=85"
             }
         ],
         "category": {
             "name": "IT NETWORK",
-            "url": "http://vidlearn.rf.gd/api/v1/playlist?category=it-network&id_category=16"
+            "url": "https://vidlearn-api.herokuapp.com/playlist?category=it-network&id_category=16"
         },
         "tags": [
             {
                 "name": "CISCO",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?tag=cisco&id_tag=66"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?tag=cisco&id_tag=66"
             },
             {
                 "name": "NETWORK",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?tag=network&id_tag=67"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?tag=network&id_tag=67"
             },
             {
                 "name": "SERVER",
-                "url": "http://vidlearn.rf.gd/api/v1/playlist?tag=server&id_tag=64"
+                "url": "https://vidlearn-api.herokuapp.com/playlist?tag=server&id_tag=64"
             }
         ],
         "author": {
@@ -204,7 +204,7 @@ Response :
         "title": "belajar CISCO CCNA Network Engineer bagian #1",
         "playlist": "CCNA - Network Engineer",
         "link_watch": "https://www.youtube.com/embed/watch?v=0z7LQL2pRe0&list=PLJGji3QDg91Grv-oT6bN51nKdpmvg_v-i&index=1",
-        "link_playlist": "http://vidlearn.rf.gd/api/v1/playlist?show=ccna-network-engineer&id=36",
+        "link_playlist": "https://vidlearn-api.herokuapp.com/playlist?show=ccna-network-engineer&id=36",
         "description": "Dokumentasi Belajar Cisco CCNA Network Engineer\r\nSupport terus, dengan share video ini, like, dan subscribe,...\r\ndan berikan kritik, masukkan dan sarannya bro..."
     }
 }
