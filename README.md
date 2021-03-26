@@ -111,6 +111,44 @@ Response :
 ```
 
 
+## Search Playlists
+Request :
+- Method : GET
+- Endpoint : `/playlist?search={example}`
+
+Response :
+```json
+{
+    "success": true,
+    "title": "Playlist search results 'tutorial'",
+    "data": [
+        {
+            "#": 1,
+            "id": 39,
+            "name": "Tutorial Office 365",
+            "author": "Imanuel Pay",
+            "thumbnail": "https://vidlearn.rf.gd/images/thumbnail/tutorial-office-365-1614677099.png",
+            "description": "Pada Video kali ini saya akan membahas tentang cara Install Office 365 dan Cara Aktivasinya. Office 365 adalah sebuah software Office yang didalamnya terdapat Office Word, Excel, Powerpoint seperti Office lainnya, namun terdapat banyak Fitur didalamn.....",
+            "created_at": "2021-03-02 17:24:59",
+            "created_at_date_format": "Tuesday, 02 March 2021 05:24:59 PM",
+            "url": "https://vidlearn-api.herokuapp.com/playlist?show=tutorial-office-365&id=39"
+        }
+    ],
+    "meta": {
+        "total": 3,
+        "count": 3,
+        "per_page": 5,
+        "total_pages": 1,
+        "links": {
+            "base_url": "https://vidlearn-api.herokuapp.com/playlist?search=tutorial",
+            "previous": false,
+            "next": false
+        }
+    }
+}
+```
+
+
 ## Show Playlist
 Request :
 - Method : GET
